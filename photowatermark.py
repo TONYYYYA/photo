@@ -26,7 +26,7 @@ def get_capture_date(image_path):
                         continue
             return None
     except Exception as e:
-        print(f"警告: 无法读取 {os.path.basename(image_path)} 的拍摄时间 - {str(e)}")
+        print(f"警告: 无法读取照片 {os.path.basename(image_path)} 的拍摄时间 - {str(e)}")
         return None
 
 
